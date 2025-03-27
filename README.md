@@ -1,11 +1,14 @@
 # React + TypeScript + Vite + FastAPI + SSE
 
-# FastAPI + SSE
+## Setup & Run
 
-- Install dependencies: `pip install fastapi uvicorn`
-- Run server: `python server.py`
+- Install backend dependencies (in a Python environment): `pip install fastapi uvicorn`
+- Run backend server: `python server.py`
+- 
+- Install frontend dependencies: `npm run install`
+- Run frontend server: `npm run dev`
 
-# React + TypeScript + Vite
+# Original template: React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
