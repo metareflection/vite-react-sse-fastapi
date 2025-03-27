@@ -26,7 +26,7 @@ async def event_producer(queue: asyncio.Queue):
     data = json.dumps({"type": "completion", "message": "Stream complete", "count": -1, "time": time.time()});
     await queue.put(data);
 
-@app.get("/sse")
+@app.get("/api/sse")
 async def sse_endpoint():
     """SSE endpoint with queue-based event handling"""
     client_queue = asyncio.Queue()

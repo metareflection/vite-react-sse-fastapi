@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     // Create SSE connection
-    const eventSource = new EventSource('http://localhost:8001/sse');
+    const eventSource = new EventSource('/api/sse');
     
     // Connection opened
     eventSource.onopen = () => {
