@@ -3,7 +3,7 @@
 ## Key files
 
 - [server.py](server.py) for the backend in FastAPI
-- [src/App.tsv](src/App.tsx) for the frontend in React
+- [src/App.tsx](src/App.tsx) for the frontend in React
 
 ## Setup & Run
 
