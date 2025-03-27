@@ -66,3 +66,41 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Minimal SSE status styling */
+.connected {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.disconnected {
+  color: #f87171;
+  font-weight: bold;
+}
+
+.completed {
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #f87171;
+  border-left: 3px solid #f87171;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.completion-message {
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+.message-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message-container li {
+  margin-bottom: 8px;
+}
