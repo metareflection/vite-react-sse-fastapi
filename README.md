@@ -1,5 +1,10 @@
 # React + TypeScript + Vite + FastAPI + SSE
 
+## Key files
+
+- [server.py](server.py) for the backend in FastAPI
+- [src/App.tsv](src/App.tsx) for the frontend in React
+
 ## Setup & Run
 
 - Install backend dependencies (in a Python environment): `pip install fastapi uvicorn`
